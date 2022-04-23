@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cinema">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/image1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/image1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".cinemas"
+            android:exported="true" />
+        <activity
+            android:name=".designfilm"
+            android:exported="true" />
+        <activity
+            android:name=".tickit"
+            android:exported="true" />
+        <activity
+            android:name=".Ratingus"
+            android:exported="true"
+            android:label="@string/title_activity_ratingus"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".cinemamiami"
+            android:exported="true" />
+        <activity
+            android:name=".cinemagalaxy"
+            android:exported="true" />
+        <activity
+            android:name=".cinemacheval"
+            android:exported="true" />
+        <activity
+            android:name=".cinemanilecity"
+            android:exported="true" />
+        <activity
+            android:name=".cinemaelzamalek"
+            android:exported="true" />
+        <activity
+            android:name=".cinemasuncity"
+            android:exported="true" />
+        <activity
+            android:name=".cinemapoint90"
+            android:exported="true" />
+        <activity
+            android:name=".cinemaimax"
+            android:exported="true" />
+        <activity
+            android:name=".cinemaalmasah"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="true" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".cinemavox" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

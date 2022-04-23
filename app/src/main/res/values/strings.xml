@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cinema</string>
+    <string-array name="appiontment">
+        <item>3pm:6pm</item>
+        <item>6pm:9pm</item>
+        <item>9pm:11pm</item>
+
+    </string-array>
+    <string-array name="price">
+        <item> 90.00 EGP </item>
+        <item>120.00 EGP</item>
+        <item>150.00 EGP</item>
+    </string-array>
+    <string name="title_activity_ratingus">Ratingus</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

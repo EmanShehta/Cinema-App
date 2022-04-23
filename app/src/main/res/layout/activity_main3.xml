@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/artistic"
+    tools:context=".MainActivity3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Cinemas"
+        android:textColor="@color/white"
+        android:textSize="46sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:stateListAnimator="@drawable/animation"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#b1ccec"
+                app:cardCornerRadius="39dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/imageView88"
+                    android:layout_width="179dp"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/vox" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Rate:4.7"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="247dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="28dp"
+                    android:fontFamily="cursive"
+                    android:text="Vox"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold|italic" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="90dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:stepSize="0.5"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="#ffbb55"
+                    android:rating="4.5"
+                    android:scaleX=".4"
+                    android:scaleY=".4" />
+
+                <TextView
+                    android:id="@+id/textView87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Almaza City Center"
+                    android:textColor="@color/black"
+                    android:textSize="19dp" />
+                <Button
+                    android:id="@+id/map_max39"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="236dp"
+                    android:layout_marginTop="147dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/img_1" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#b1ccec"
+                app:cardCornerRadius="36dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:layout_width="179dp"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/almasa" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Rate:4.6"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="247dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="cursive"
+                    android:text="Al Masah"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="90dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="#ffbb55"
+                    android:rating="4.5"
+                    android:scaleX=".4"
+                    android:scaleY=".4" />
+
+                <TextView
+                    android:id="@+id/textView86"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Nasr city"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/map_max3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginBottom="10dp"
+
+                    android:background="@drawable/img_1" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="6dp"
+                app:cardBackgroundColor="#b1ccec"
+                app:cardCornerRadius="36dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="179dp"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/cinema" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Rate:4.5"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="247dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="cursive"
+                    android:text="I Max"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginBottom="10dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="#ffbb55"
+                    android:rating="4.5"
+                    android:scaleX=".4"
+                    android:scaleY=".4" />
+
+                <TextView
+                    android:id="@+id/textView85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Sheikh Zayed City"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/map_max"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="236dp"
+                    android:layout_marginTop="145dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/img_1" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#b1ccec"
+                app:cardCornerRadius="36dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/imageView84"
+                    android:layout_width="179dp"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/c3" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Rate:4.5"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="247dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="cursive"
+                    android:text="Point90"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="90dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="#ffbb55"
+                    android:rating="4.5"
+                    android:scaleX=".4"
+                    android:scaleY=".4" />
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- New Cairo"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                <Button
+                    android:id="@+id/map_max4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="236dp"
+                    android:layout_marginTop="147dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/img_1" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="6dp"
+                app:cardBackgroundColor="#b1ccec"
+                android:id="@+id/cardview5"
+                app:cardCornerRadius="36dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/imageView82"
+                    android:layout_width="179dp"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/suncity" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Rate:4.5"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="247dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="cursive"
+                    android:text="Sun City"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="90dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="#ffbb55"
+                    android:rating="4.4"
+                    android:scaleX=".4"
+                    android:scaleY=".4" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Sheration"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/map_max6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="236dp"
+                    android:layout_marginTop="147dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/img_1" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="6dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                app:cardBackgroundColor="#b1ccec"
+                android:id="@+id/cardview6"
+                app:cardCornerRadius="36dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/imageView83"
+                    android:layout_width="179dp"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/zamalk" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Rate:4.4"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="247dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="205dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="cursive"
+                    android:text="El Zamalek"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="90dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="#ffbb55"
+                    android:rating="4.4"
+                    android:scaleX=".4"
+                    android:scaleY=".4" />
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Zamalek"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/map_max5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="236dp"
+                    android:layout_marginTop="147dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/img_1" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="6dp"
+                app:cardBackgroundColor="#b1ccec"
+                android:id="@+id/cardview7"
+                app:cardCornerRadius="36dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/imageView91"
+                    android:layout_width="179dp"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/nile" />
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Rate:4.3"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="247dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="cursive"
+                    android:text="Nile City"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="90dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="#ffbb55"
+                    android:rating="4.3"
+                    android:scaleX=".4"
+                    android:scaleY=".4" />
+
+                <TextView
+                    android:id="@+id/textView92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Cairo"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/map_max93"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="236dp"
+                    android:layout_marginTop="147dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/img_1" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="37dp"
+                android:layout_marginBottom="20dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:id="@+id/cardview8"
+                app:cardBackgroundColor="#b1ccec">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="247dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="cursive"
+                    android:text="Cheval"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="179dp"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/cheval" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Rate: 4.1"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="90dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="#ffbb55"
+                    android:rating="4.1"
+                    android:scaleX=".4"
+                    android:scaleY=".4" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Tanta"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <Button
+                    android:id="@+id/map_max1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="234dp"
+                    android:layout_marginTop="149dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/img_1" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="6dp"
+                app:cardBackgroundColor="#b1ccec"
+                android:id="@+id/cardview9"
+                app:cardCornerRadius="36dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/imageView80"
+                    android:layout_width="179dp"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/glakcy" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Rate:4.1"
+                    android:textColor="@color/black"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="247dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="cursive"
+                    android:text="Galaxy"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="90dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="#ffbb55"
+                    android:rating="4.1"
+                    android:scaleX=".4"
+                    android:scaleY=".4" />
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Cairo"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                <Button
+                    android:id="@+id/map_max7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="236dp"
+                    android:layout_marginTop="147dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/img_1" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="6dp"
+                app:cardBackgroundColor="#b1ccec"
+                android:id="@+id/cardview10"
+                app:cardCornerRadius="36dp"
+                app:cardElevation="6dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="179dp"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/img" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Rate:3.4"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    />
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="247dp"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="208dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="cursive"
+                    android:text="Miami"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_marginLeft="128dp"
+                    android:layout_marginTop="90dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressBackgroundTint="@color/black"
+                    android:progressTint="#ffbb55"
+                    android:rating="3.4"
+                    android:scaleX=".4"
+                    android:scaleY=".4" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="194dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="cursive"
+                    android:text="- Cairo"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                <Button
+                    android:id="@+id/map_max9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="236dp"
+                    android:layout_marginTop="147dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/img_1" />
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:stateListAnimator="@drawable/animation"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="15dp"
+            app:cardBackgroundColor="#b1ccec"
+            app:cardCornerRadius="39dp"
+            app:cardElevation="6dp">
+
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="179dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="194dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:text="rate"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="247dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="208dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="cursive"
+                android:text="title"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBar22"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:layout_marginLeft="128dp"
+                android:layout_marginTop="90dp"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:stepSize="0.5"
+                android:progressBackgroundTint="@color/black"
+                android:progressTint="#ffbb55"
+                android:scaleX=".4"
+                android:scaleY=".4" />
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="194dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:text="location"
+                android:textColor="@color/black"
+                android:textSize="21dp" />
+            <Button
+                android:id="@+id/map_max39"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="236dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/img_1" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

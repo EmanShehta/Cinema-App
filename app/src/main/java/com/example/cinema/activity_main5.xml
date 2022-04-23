@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrd"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:elevation="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Book A Ticket"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="190dp"
+        android:fontFamily="cursive"
+        android:text="Show Day"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="190dp"
+        android:fontFamily="cursive"
+        android:text="Show Time"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="30dp"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <NumberPicker
+            android:id="@+id/np1"
+            android:layout_width="60dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/col"
+            android:soundEffectsEnabled="true"></NumberPicker>
+
+        <Spinner
+            android:id="@+id/spiner1"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/col"
+            android:entries="@array/appiontment"
+            android:textAlignment="center">
+
+        </Spinner>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="377dp"
+        android:fontFamily="cursive"
+        android:text="Chairs"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="228dp"
+        android:layout_marginTop="377dp"
+        android:fontFamily="cursive"
+
+        android:text="Show Price"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="15dp"
+        android:fadingEdge="vertical"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <NumberPicker
+            android:id="@+id/np11"
+            android:layout_width="60dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/col"
+            android:soundEffectsEnabled="true"></NumberPicker>
+
+        <Spinner
+            android:id="@+id/spiner11"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/col"
+            android:entries="@array/price"
+            android:textAlignment="center"></Spinner>
+    </LinearLayout>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/faw"></Button>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="572dp"
+        android:background="@drawable/pic">
+
+    </Button>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_2"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="670dp"
+        app:cardBackgroundColor="#dbe9ff"
+        app:cardCornerRadius="36dp"
+        app:cardElevation="6dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView1133"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Book Now"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/em"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold|italic" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

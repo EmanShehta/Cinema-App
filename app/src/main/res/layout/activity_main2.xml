@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/s1"
+    android:clickable="false"
+    android:focusable="auto"
+    android:orientation="vertical"
+    android:visibility="visible">
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="cursive"
+        android:text="E-mail"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/email_ans"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textCursorDrawable="@color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="cursive"
+        android:text="User Name"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/user_name_ans"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="cursive"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/black"
+        android:textCursorDrawable="@color/black"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:id="@+id/password_ans"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:password="true"
+            android:textSize="22dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="cursive"
+        android:text="Confirm Password"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/black"
+        android:textCursorDrawable="@color/black"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:id="@+id/password_ans1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:password="true"
+            android:textSize="22dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="cursive"
+        android:text="Phone Number"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/phone_ans"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+
+
+    <CheckBox
+        android:id="@+id/checkbox_ans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="70dp"
+        android:text="Agree with our terms"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+        android:buttonTint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/card_1"
+        android:layout_marginHorizontal="30dp"
+android:layout_gravity="center"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="30dp">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/sign_up_box"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Sign Up"
+                android:textColor="@color/white"
+                android:textSize="27sp"
+                android:textStyle="bold|italic" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
